@@ -1,0 +1,49 @@
+.movie_list {
+  width: 80vw;
+  height: 70vh;
+  background-color: rgba(253, 247, 255, 0.58);
+  margin: 80px auto;
+  overflow: hidden;
+}
+
+.movie_list img {
+  float: left;
+  margin: 20px;
+  transition: all 0.5s;
+}
+
+.movie_list div {
+  margin: 20px;
+}
+
+.movie_list ul {
+  list-style: none;
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.movie_list ul li {
+  margin-right: 35px;
+  font-size: 13px;
+}
+
+.movie_list p {
+  font-size: 15px;
+  padding: 20px;
+}
+
+.hover:hover {
+  transform: scale(1.05);
+}
+
+.title_hover:hover {
+  transform: scale(1.05);
+  text-decoration-line: underline;
+}
+
+.movie_list .title_hover {
+  transition: all 0.7s;
+  transform-origin: 50% 50%;
+}
